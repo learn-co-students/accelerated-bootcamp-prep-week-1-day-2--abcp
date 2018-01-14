@@ -4,8 +4,8 @@ console.log(names[0])
 console.log(names[1])
 console.log(names[2])
 
-for(i = 0; i < names.length; i++, ) {
-  console.log(name)
+for(i = 0; i < names.length; i++) {
+  console.log(name[i]);
 }
 
 
@@ -19,6 +19,6 @@ while (i <= 10) {
   i++
 }
 
-[1, 2, 3].forEach(function(element) {
+/*[1, 2, 3].forEach(function(element) {
   console.log(element)
-}
+}*/
