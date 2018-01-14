@@ -1,34 +1,43 @@
-function addElementToBeginningOfArray(array, element) {
- // add the element to the beginning of the array without mutating the array
+function addElementToBeginningOfArray (x,y) {
+  var newarray = [y, ...x];
+  return(newarray)
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element){
-  // add element to the beginning of the array by mutating the array
+function destructivelyAddElementToBeginningOfArray (x,y) {
+  x.unshift(y);
+  return(x)
 }
 
-function addElementToEndOfArray(array, element) {
-
+function addElementToEndOfArray (x,y) {
+  var newarray = [...x, y];
+  return(newarray)
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
-
+function destructivelyAddElementToEndOfArray (x,y) {
+  x.push(y);
+  return(x)
 }
 
-function accessElementInArray(array, index) {
-
+function accessElementInArray (x,y) {
+  return(x[y])
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-
+function destructivelyRemoveElementFromBeginningOfArray (x) {
+  x.shift();
+  return(x)
 }
 
-function removeElementFromBeginningOfArray(array) {
+function removeElementFromBeginningOfArray (x) {
+  var newarray = x.slice(1);
+  return(newarray)
 }
 
-function destructivelyRemoveElementFromEndOfArray(array) {
-
+function destructivelyRemoveElementFromEndOfArray (x) {
+  x.pop();
+  return(x)
 }
 
-function removeElementFromEndOfArray(array) {
-
+function removeElementFromEndOfArray (x) {
+  var newarray = x.slice(0,x.length-1);
+  return(newarray)
 }
