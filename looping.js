@@ -4,7 +4,7 @@ console.log(names[0])
 console.log(names[1])
 console.log(names[2])
 
-for(i = 0; i < names.length; i++, ) {
+for(i = 0; i < names.length; i++) {
   console.log(name)
 }
 
@@ -19,6 +19,8 @@ while (i <= 10) {
   i++
 }
 
-[1, 2, 3].forEach(function(element) {
-  console.log(element)
-}
+const arr = [1, 2, 3];
+
+arr.forEach(function(element) {
+    console.log(element);
+});
