@@ -5,4 +5,12 @@ if (pokemon == "Pikachu") {
 }
 
 
+function of10(num){
+  if (num > 10) {
+    return num;
+  } else {
+    return `Sorry, that number is not 10!`;
+  }
+}
+
 
