@@ -1,3 +1,6 @@
+var array = ['uberDriver','cashier','Assistant manager','dominoes delivery']
+
+
 function addElementToBeginningOfArray(array, element) {
  // add the element to the beginning of the array without mutating the array
  return [element,...array];
@@ -24,15 +27,14 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 return array.shift();
 }
 
-function removeElementFromBeginningOfArray(array) {
-return array.splice(0,1);
+function removeElementFromEndOfArray(array) {
+return array.slice(0,array.length-1);
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
 return array.pop();
 }
 
-function removeElementFromEndOfArray(array) {
-  let x = (array.length - 1) ;
-return array.splice(x,1);
+function removeElementFromBeginningOfArray(array) {
+return array.slice(1);
 }
