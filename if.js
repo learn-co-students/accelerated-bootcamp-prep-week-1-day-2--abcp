@@ -9,6 +9,6 @@ function tenOrGreater(num) {
   if(num >= 10) {
     return num;
   } else {
-    return "That number is less than 10."
+    return "Sorry, that number is less than 10."
   }
 }
