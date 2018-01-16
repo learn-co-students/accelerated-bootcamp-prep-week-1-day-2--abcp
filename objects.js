@@ -1,6 +1,6 @@
 var course = {
   title: "Bootcamp Prep",
-  description: "an introduction to JavaScript"
+  description: "An introduction to JavaScript"
 }
 
 var course = new Object({
