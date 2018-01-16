@@ -5,4 +5,10 @@ if (pokemon == "Pikachu") {
 }
 
 
-
+function tenOrGreater(num) {
+  if(num >= 10) {
+    return num;
+  } else {
+    return "Sorry, that number is less than 10."
+  }
+}
