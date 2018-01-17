@@ -84,7 +84,7 @@ Think of it like a little bundle of attributes or data in which you can look up 
 
 ## Creating
 
-Two ways to create an object. Ojbect literal and Object constructor:
+Two ways to create an object. Object literal and Object constructor:
 
 ```javascript
 var course = {
