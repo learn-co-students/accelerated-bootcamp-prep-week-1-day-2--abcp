@@ -11,6 +11,9 @@ for(i = 0; i < names.length; i++, ) {
 
 while(condition) {
   // loop body
+  for (i=0; i < condition.length; i++) {
+    console.log(condition[i]);
+  }
 }
 
 i = 0
