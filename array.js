@@ -32,3 +32,11 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 function removeElementFromEndOfArray(array) {
 
 }
+
+// remove element from middle of array and get back copy of array
+
+function nonDestructivelyRemoveAtIndex(array) {
+// use slice and spread
+  var i = array.length / 2
+
+}
