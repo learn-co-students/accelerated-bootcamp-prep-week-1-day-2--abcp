@@ -1,8 +1,10 @@
 var card = "Heart"
 
-if (pokemon == "Heart") {
-  console.log("I choose you Heart!!")
+function checking(pokemon)
+{
+  if (pokemon == "Heart") {
+    console.log("I choose you Heart!!")
+  }
 }
 
-
-
+checking(card);
