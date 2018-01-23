@@ -37,6 +37,13 @@ function removeElementFromEndOfArray(array) {
 
 function nonDestructivelyRemoveAtIndex(array) {
 // use slice and spread
-  var i = array.length / 2
+  var newArray;
+
+  // use slice and spread
+  var i = Math.floor(array.length / 2);
+  newArrayFront = array.slice(0,i);
+  newArrayBack = array.slice(i+1);
+  newArray = [...newArrayFront, ...newArrayBack];
+  return newArray;
 
 }
