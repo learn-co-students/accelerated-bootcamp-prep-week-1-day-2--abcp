@@ -224,8 +224,8 @@ What if we want to execute a line of code, like our console.log statement, for e
 
 ### For loop
 ```javascript
-for(i = 0; i < names.length; i++, ) {
-  console.log(name)
+for(i = 0; i < names.length; i++ ) {
+  console.log(name[i])
 }
 ```
 
