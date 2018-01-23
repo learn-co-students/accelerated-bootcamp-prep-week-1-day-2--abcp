@@ -1,7 +1,7 @@
-var pokemon = "Pikachu"
+var card = "Heart"
 
-if (pokemon == "Pikachu") {
-  console.log("I choose you Pikachu!!")
+if (pokemon == "Heart") {
+  console.log("I choose you Heart!!")
 }
 
 
